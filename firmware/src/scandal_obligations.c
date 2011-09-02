@@ -9,10 +9,10 @@
 
 #include <io.h>
 
-#include "scandal_obligations.h"
-#include "scandal_error.h"
-#include "scandal_devices.h"
-#include "scandal_led.h"
+#include <scandal/obligations.h>
+#include <scandal/error.h>
+#include <scandal/devices.h>
+#include <scandal/led.h>
 
 /* Reset the node in a safe manner
 	- will be called from handle_scandal */

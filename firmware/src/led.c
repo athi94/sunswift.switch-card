@@ -10,9 +10,9 @@
 #include <signal.h>
 #include <iomacros.h>
 
-#include "scandal_led.h"
+#include <scandal/led.h>
 
-#include "hardware.h"
+#include <project/hardware.h>
     
 #define BIT(x) (1<<x)
 

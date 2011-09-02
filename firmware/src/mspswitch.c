@@ -3,19 +3,19 @@
 #include <iomacros.h>
 #include <string.h>
 
-#include "scandal_timer.h"
-#include "scandal_led.h"
-#include "scandal_can.h"
-#include "scandal_engine.h"
-#include "scandal_spi.h"
-#include "spi_devices.h"
-#include "scandal_devices.h"
-#include "scandal_utils.h"
-#include "scandal_message.h"
-#include "scandal_adc.h"
-#include "adc.h"
+#include <scandal/timer.h>
+#include <scandal/led.h>
+#include <scandal/can.h>
+#include <scandal/engine.h>
+#include <scandal/spi.h>
+#include <scandal/devices.h>
+#include <scandal/utils.h>
+#include <scandal/message.h>
+#include <scandal/adc.h>
 
-#include "hardware.h"
+#include <project/adc.h>
+#include <project/spi_devices.h>
+#include <project/hardware.h>
 
 #define WDTCTL_INIT     WDTPW|WDTHOLD
 

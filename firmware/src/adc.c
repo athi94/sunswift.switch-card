@@ -15,8 +15,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "scandal_types.h"
-#include "scandal_adc.h"
+#include <scandal/types.h>
+#include <scandal/adc.h>
 
 /* Set based on order of filter required */
 /* Currently using 1st order IIR filter; otherwise 

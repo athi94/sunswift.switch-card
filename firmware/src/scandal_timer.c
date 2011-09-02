@@ -10,7 +10,7 @@
 #include <io.h>
 #include <signal.h>
 
-#include "scandal_timer.h"
+#include <scandal/timer.h>
 
 static volatile u32 ms;
 
